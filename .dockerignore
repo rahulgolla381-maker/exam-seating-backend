@@ -1,0 +1,39 @@
+# ==============================================================================
+# Docker Ignore Rules (.dockerignore)
+# ==============================================================================
+
+# Git metadata
+.git/
+.gitignore
+
+# Build outputs and caches
+target/
+out/
+build/
+.mvn/wrapper/target/
+
+# Local configuration, secrets, and environment overrides
+.env
+.env.*
+*application-local.properties
+**/application-local.properties
+application-local.properties
+src/main/resources/application-local.properties
+
+# Logs
+*.log
+logs/
+
+# IDE / Editor directories
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+.settings/
+.classpath
+.project
+
+# OS metadata
+.DS_Store
+Thumbs.db

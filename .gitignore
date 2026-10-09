@@ -1,0 +1,45 @@
+# Maven build output
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Eclipse / STS
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+# VS Code
+.vscode/
+
+# Local Environment & Secrets
+.env
+.env.local
+*.log
+*application-local.properties
+**/application-local.properties
+!application-local.properties.example
+!**/application-local.properties.example
+
+# Operating System Files
+.DS_Store
+Thumbs.db

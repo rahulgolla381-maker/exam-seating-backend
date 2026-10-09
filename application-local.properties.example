@@ -1,0 +1,10 @@
+# ==============================================================================
+# Local Development Overrides Template (application-local.properties.example)
+# ==============================================================================
+# Copy this file to application-local.properties for your local machine:
+#   cp application-local.properties.example application-local.properties
+#
+# Replace the placeholders below with your local machine's credentials:
+
+spring.datasource.password=your_local_mysql_password
+jwt.secret=your_local_256_bit_secret_key_minimum_32_characters
